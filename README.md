@@ -20,7 +20,7 @@ Note that Python version is 3.7.4.
 
 `pip install -r requirements.txt`
 
-`Download [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html)`
+Download [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html)
 
 ## Usage
 
