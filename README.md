@@ -17,7 +17,9 @@ Note that Python version is 3.7.4.
 
 ## Installation
 `git clone https://github.com/bsa-vsp/deep-vs.git`
+
 `pip install -r requirements.txt`
+
 `Download [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html)`
 
 ## Usage
