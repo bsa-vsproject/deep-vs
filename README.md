@@ -12,7 +12,8 @@ Eventually, the model has successfully predicted molecular structures that were 
 - argparse
 - csv
 - sys
-Note: Python 3.7.4
+
+Note that Python version is 3.7.4.
 
 ## Installation
 `git clone https://github.com/bsa-vsp/deep-vs.git`
