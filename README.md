@@ -30,7 +30,7 @@ Once you have the cavity vector file, you can use it as input.
  
 The model will predict the most suitable ligand vectors for your cavities. 
 
-You can find the SMILES of ligand that most similar to the predicted ligand vector by screening from the [eMolecules](https://www.emolecules.com/) library containing 100 thousand diversity molecules. The size of this library exceeds the github upload limit, so you can download the library via this link.
+You can find the SMILES of ligand that most similar to the predicted ligand vector by screening from the [eMolecules](https://www.emolecules.com/) library containing 100 thousand diversity molecules. The size of this library exceeds the github upload limit, so you can download the library via this [link](https://drive.google.com/drive/folders/1OMdrh4el6OYd2-7idg4Dg6quBix6_cDp?usp=sharing).
 
 *Also if you want, you can establish a library that bigger or contain more diversity molecules that help the improve similarity of output. Please note that the output of the model is in the mol2vec output format, so you need to convert the library you will create into the vector with mol2vec.*
  
