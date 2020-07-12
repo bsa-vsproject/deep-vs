@@ -1,0 +1,9 @@
+Python 3
+IChem
+keras
+pandas
+NumPy
+scikit-learn
+argparse
+csv
+sys
