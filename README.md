@@ -5,7 +5,6 @@ The data used while training the model was obtained from PDBbind that contains p
 Eventually, the model has successfully predicted molecular structures that were very similar to already known molecules that reside in the specified cavity with 95\% accuracy. 
 
 ## Requirements
-- [Python 3](http://www.python3statement.org/)
 - [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html)
 - [keras](https://keras.io/)
 - [pandas](http://pandas.pydata.org/)
