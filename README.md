@@ -24,7 +24,7 @@ Download [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html)
 
 ## Usage
 
-In order to use the model, you need to obtain the description vectors of the cavities of the protein you are interested in via [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html).
+In order to use the model, you need to obtain the description vectors of the cavities of the protein you are interested in via IChem.
 
 You can see how the resulting cavity file should be in the example cavity vector file.
 
