@@ -10,13 +10,14 @@ Eventually, the model has successfully predicted molecular structures that were 
 - [NumPy](http://www.numpy.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - argparse
-- csv
 - sys
 
 Note that Python version is 3.7.4.
 
 ## Installation
 `git clone https://github.com/bsa-vsp/deep-vs.git`
+
+`cd deep-vs`
 
 `pip install -r requirements.txt`
 
@@ -30,7 +31,7 @@ You can see how the resulting cavity file should be in the example cavity vector
 
 Once you have the cavity vector file, you can use it as input.
 
- `mlp_vscreen_predict.py -i cavitiy_vectors.csv -m mlp_vscreen_train_model_v1.h5 -o predicted_lig.csv`
+ `python mlp_vscreen_predict.py -i cavitiy_vectors.csv -m mlp_vscreen_train_model_v1.h5 -o predicted_lig.csv`
  
 The model will predict the most suitable ligand vectors for your cavities. 
 
@@ -38,12 +39,12 @@ You can find the SMILES of ligand that most similar to the predicted ligand vect
 
 *Also if you want, you can establish a library that bigger or contain more diversity molecules that help the improve similarity of output. Please note that the output of the model is in the Mol2vec output format, so you need to convert the library you will create into the vector with [Mol2vec](https://github.com/samoturk/mol2vec).*
  
- `mlp_vscreen_library.py -i predicted_lig.csv -l 100k.csv`
+ `python mlp_vscreen_library.py -i predicted_lig.csv -l 100k.csv`
 
-###### Example:
+## Example:
 
 If you want to try it, you can use the cavity file of 6feh protein obtained with Ichem which is 6feh_cavitiy_vectors.csv, and the eMolecules library containing 10 thousand molecules which is 10k.tar.xz. 
 
-`mlp_vscreen_predict.py -i 6feh_cavitiy_vectors.csv -m mlp_vscreen_train_model_v1.h5 -o 6feh_predicted_lig.csv`
+`python mlp_vscreen_predict.py -i 6feh_cavitiy_vectors.csv -m mlp_vscreen_train_model_v1.h5 -o 6feh_predicted_lig.csv`
 
-`mlp_vscreen_library.py -i 6feh_predicted_lig.csv -l 10k.csv`
+`python mlp_vscreen_library.py -i 6feh_predicted_lig.csv -l 10k.csv`
