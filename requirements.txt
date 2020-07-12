@@ -3,5 +3,4 @@ pandas
 NumPy
 scikit-learn
 argparse
-csv
 sys
