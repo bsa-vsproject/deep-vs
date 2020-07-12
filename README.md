@@ -5,7 +5,6 @@ The data used while training the model was obtained from PDBbind that contains p
 Eventually, the model has successfully predicted molecular structures that were very similar to already known molecules that reside in the specified cavity with 95\% accuracy. 
 
 ## Requirements
-- [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html)
 - [keras](https://keras.io/)
 - [pandas](http://pandas.pydata.org/)
 - [NumPy](http://www.numpy.org/)
@@ -13,9 +12,12 @@ Eventually, the model has successfully predicted molecular structures that were 
 - argparse
 - csv
 - sys
+Note: Python 3.7.4
 
 ## Installation
-`pip install git+https://github.com/bsa-vsp/deep-vs`
+`git clone https://github.com/bsa-vsp/deep-vs.git`
+`pip install -r requirements.txt`
+`Download [IChem](http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html)`
 
 ## Usage
 
