@@ -47,4 +47,4 @@ If you want to try it, you can use the cavity file of 6feh protein obtained with
 
 `python mlp_vscreen_predict.py -i 6feh_cavitiy_vectors.csv -m mlp_vscreen_train_model_v1.h5 -o 6feh_predicted_lig.csv`
 
-`python mlp_vscreen_library.py -i 6feh_predicted_lig.csv -l 10k.csv`
+`tar -xf 10k.tar.xz | python mlp_vscreen_library.py -i 6feh_predicted_lig.csv -l 10k.csv`
