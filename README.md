@@ -6,11 +6,12 @@ Eventually, the model has successfully predicted molecular structures that were 
 
 ## Requirements
 - [keras](https://keras.io/)
+- [tensorflow](https://www.tensorflow.org/) 
 - [pandas](http://pandas.pydata.org/)
 - [NumPy](http://www.numpy.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - argparse
-- sys
+
 
 Note that Python version is 3.7.4.
 
